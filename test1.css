@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    vertical-align: middle;
+}
+
+/* Navigation */
+ul {
+    list-style: none;
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main Content */
+.main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.total {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.total h1, .total h2 {
+    color: #333;
+}
+
+.total button {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pic img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Values Section */
+.whole {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.sub div {
+    flex-basis: 30%;
+}
+
+.sub img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Other Sections */
+.page1, .class1, .class2, .logo1, .last, .box, footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.page1 .pict img, .class1 .pi1 img, .class2 .picture img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
